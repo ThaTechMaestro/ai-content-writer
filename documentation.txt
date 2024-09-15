@@ -1,0 +1,12 @@
+Setting up VENV
+python3 -m venv ai-cw-venv
+source ai-cw-venv/bin/activate
+pip install -r /path/to/requirements.txt
+
+-----
+Five Principles of Prompting
+- Direction
+- Format
+- Examples
+- Evaluation
+- Division (splitting into multiple prompts where appropriate)
