@@ -1,6 +1,19 @@
-occupation = "fishing"
-a = "This is what I do: {occupation}".format(occupation=occupation)
-print(a.format(occupation="fishing"))
+# import deque
+from collections import deque 
+a = [1,2,5,4]
+a.sort()
+print(a)
 
-a = {"key": "1", "Link": "happy"}
-print(a.Link)
+N= 5
+queue = deque()
+
+for i in range(N):
+    queue.append(i)
+
+print(queue)
+queue.popleft()
+print(queue)
+queue.pop()
+print(queue)
+
+print((2 + 3) / 2)
