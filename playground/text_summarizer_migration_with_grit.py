@@ -1,3 +1,20 @@
+'''
+The goal of the script is to test the changes associated with using 
+the grit tool for migrating code relating to the use of openai sdk
+ChatGpt currently pours out code with openai integration
+    which are the old way of doing things that is
+    writing code as if you are using versions below 1.0.0
+    But from v1.0.0, changes have been made and there are better way
+    of implementing stuff which is what I hope to see from using the grit tool
+
+The code in this script is a clone of what is in text_summarizer.py
+& the final version will be after i have executed the openai migration command
+    
+More Details can be found here: https://github.com/openai/openai-python/discussions/742
+
+RESULT --> The command from the documentation did not work for me
+'''
+
 import openai
 import asyncio
 import os 
@@ -64,21 +81,6 @@ async def main():
     print("------------Summary------------------")
     print(summary)
     
-    
+   
 if __name__ == "__main__":
     asyncio.run(main())
-    
-'''
-The goal of the script is to test the changes associated with using 
-the grit tool for migrating code relating to the use of openai sdk
-ChatGpt currently pours out code with openai integration
-    which are the old way of doing things that is
-    writing code as if you are using versions below 1.0.0
-    But from v1.0.0, changes have been made and there are better way
-    of implementing stuff which is what I hope to see from using the grit tool
-
-The code in this script is a clone of what is in text_summarizer.py
-& the final version will be after i have executed the openai migration command
-    
-More Details can be found here: https://github.com/openai/openai-python/discussions/742
-'''

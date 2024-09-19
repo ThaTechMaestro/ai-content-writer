@@ -1,12 +1,20 @@
-import openai
+'''
+Rewriting this following best practices
+since i am using version1.0.0+ &
+there is a better way than defining a global client &
+interacting with openai apis
+'''
+
 import asyncio
 import os 
 from dotenv import load_dotenv
+from openai import AsyncOpenAI
+
 
 dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
 load_dotenv(dotenv_path=dotenv_path)
 
-key = os.getenv("OPENAI_API_KEY")
+client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 async def get_summary(
     text: str) -> str:
@@ -33,12 +41,10 @@ async def get_summary(
         """.format(text=text)
     )
     
-    response = await asyncio.to_thread(
-        openai.completions.create,
+    response = await client.completions.create(
         model="gpt-3.5-turbo-instruct",
         prompt=prompt,
-        max_tokens=150
-    )
+        max_tokens=150)
     
     summary = response.choices[0].text.strip()
     return summary
