@@ -1,7 +1,9 @@
 Setting up VENV
 python3 -m venv ai-cw-venv
 source ai-cw-venv/bin/activate
+source ai-cw-ell-venv/bin/activate
 pip install -r /path/to/requirements.txt
+
 
 -----
 Five Principles of Prompting
@@ -10,3 +12,11 @@ Five Principles of Prompting
 - Examples
 - Evaluation
 - Division (splitting into multiple prompts where appropriate)
+
+
+------------
+VENV used (Locally):
+To run text_summarizer_rewrite_with_ell.python
+   Activate  -> ai-cw-ell-venv
+Others:
+   Activate  -> ai-cw-venv

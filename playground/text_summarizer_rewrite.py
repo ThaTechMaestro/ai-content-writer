@@ -1,6 +1,6 @@
 '''
 Rewriting this following best practices
-since i am using version1.0.0+ &
+using openAI version1.0.0+(The latest version of OpenAi SDK) &
 there is a better way than defining a global client &
 interacting with openai apis
 '''
