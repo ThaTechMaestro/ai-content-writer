@@ -1,19 +1,11 @@
 # import deque
 from collections import deque 
-a = [1,2,5,4]
-a.sort()
-print(a)
+a = [1,2,5,0,0,0]
+b = [1,2,3]
 
-N= 5
-queue = deque()
-
-for i in range(N):
-    queue.append(i)
-
-print(queue)
-queue.popleft()
-print(queue)
-queue.pop()
-print(queue)
-
-print((2 + 3) / 2)
+# for i in range(len(a)):
+    
+#     if a[i] == 0:
+#         a[i] = b.pop()
+        
+print(a[1:])
