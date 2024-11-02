@@ -24,8 +24,10 @@ Others:
 
 ------------------
 
-Stuffs Missing from the Project
+Stuffs Missing from the Project | TODOS | ATREAS FOR IMPROVEMENT
 - Architecture -> Big Picture
    Just a bunch of scripts lumped up together
    quite difficult to follow through
 - Better organisation of the code
+- Video Explanation of Project
+
