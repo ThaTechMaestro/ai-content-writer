@@ -5,7 +5,6 @@ source ai-cw-venv/bin/activate
 source ai-cw-ell-venv/bin/activate
 pip install -r /path/to/requirements.txt
 
-
 -----
 Five Principles of Prompting
 - Direction
@@ -17,10 +16,11 @@ Five Principles of Prompting
 
 ------------
 VENV used (Locally):
-To run text_summarizer_rewrite_with_ell.python
+To run text_summarizer_rewrite_with_ell.python (This is for learning Ell)
    Activate  -> ai-cw-ell-venv
 Others:
-   Activate  -> ai-cw-venv
+   Activate  -> ai-cw-venv (This is for the AI content Writer Project)
+   Activate -> concepts-venv (This is for the mini-projects/concepts directory)
 
 ------------------
 
