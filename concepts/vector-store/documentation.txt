@@ -1,6 +1,8 @@
-Concepts Learned from chroma_db.py Implementation:
+Concepts Learned from chroma_db.py Implementation Part1:
 - Understanding of vector databases
 - Implementation of basic vector storage and retrieval
 - Use of semantic search
 - Metadata usage
 - Testing implementation
+
+Innovative Exercise from Part1:
