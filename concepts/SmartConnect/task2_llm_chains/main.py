@@ -22,6 +22,6 @@ def test_get_settings():
     
 
 if __name__ == '__main__':
-    test_get_settings()
-    # test_llm()
+    # test_get_settings()
+    test_llm()
     

@@ -11,7 +11,8 @@ class Settings(BaseSettings):
         env_file=str(ROOT_DIR/'.env'),
         env_file_encoding='utf-8',
         case_sensitive=False,
-        extra='ignore'
+        extra='ignore',
+        env_file_override=True
     )
     
     test_value: str  
