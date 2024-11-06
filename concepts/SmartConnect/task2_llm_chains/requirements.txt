@@ -1,0 +1,5 @@
+# requirements.txt
+pydantic>=2.6.1
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+openai>=1.12.0

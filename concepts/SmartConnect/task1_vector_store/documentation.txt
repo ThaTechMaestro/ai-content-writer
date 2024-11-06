@@ -1,8 +1,9 @@
-Concepts Learned from chroma_db.py Implementation Part1:
+Concepts Learned Using VectorDB in this case Chroma:
 - Understanding of vector databases
 - Implementation of basic vector storage and retrieval
 - Use of semantic search
 - Metadata usage
 - Testing implementation
 
-Innovative Exercise from Part1:
+Innovative Answer From this Task:
+- The use of metadata ia a great way to improve search
